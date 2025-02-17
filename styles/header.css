@@ -61,6 +61,11 @@
     display: none;
 }
 
+.opcoes{
+    display: none;
+}
+
+
 @media screen and (min-width: 1024px){
     .container-titulo, .container-titulo-negrito{
         font-family: var(--fonte-secundaria);
@@ -74,5 +79,27 @@
 
     .container-titulo-negrito{
         font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes-item{
+        padding: 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes-link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container-imagem-favoritos{
+        display: none;
+    }
+
+    .cabecalho-menu-hamburguer{
+        display: none;
     }
 }
